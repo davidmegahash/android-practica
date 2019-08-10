@@ -2,34 +2,41 @@ import { NbMenuItem } from '@nebular/theme';
 
 export const MENU_ITEMS: NbMenuItem[] = [
   {
-    title: 'E-commerce',
-    icon: 'shopping-cart-outline',
-    link: '/pages/dashboard',
+    title: 'Inicio',
+    icon: 'home-outline',
+    link: '/pages/layout/infinite-list',
     home: true,
   },
   {
-    title: 'IoT Dashboard',
+    title: 'Mis compras',
+    icon: 'shopping-cart-outline',
+    link: '/pages/dashboard',
+  },
+  /*
+  {
+    title: 'Certificados',
     icon: 'home-outline',
     link: '/pages/iot-dashboard',
   },
+  */
   {
-    title: 'FEATURES',
+    title: 'ACADEMIA',
     group: true,
   },
   {
-    title: 'Layout',
+    title: 'Habitación',
     icon: 'layout-outline',
     children: [
       {
-        title: 'Stepper',
+        title: 'Cantantes',
         link: '/pages/layout/stepper',
       },
       {
-        title: 'List',
+        title: 'Musicos',
         link: '/pages/layout/list',
       },
       {
-        title: 'Infinite List',
+        title: 'Compositores',
         link: '/pages/layout/infinite-list',
       },
       {
@@ -43,6 +50,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
       },
     ],
   },
+  /*
   {
     title: 'Forms',
     icon: 'edit-2-outline',
@@ -60,82 +68,83 @@ export const MENU_ITEMS: NbMenuItem[] = [
         link: '/pages/forms/buttons',
       },
       {
-        title: 'Datepicker',
+        title: 'Tutores',
         link: '/pages/forms/datepicker',
       },
     ],
   },
+  */
   {
-    title: 'UI Features',
+    title: 'Clases en vivo',
     icon: 'keypad-outline',
     link: '/pages/ui-features',
     children: [
       {
-        title: 'Grid',
+        title: 'Calendario',
         link: '/pages/ui-features/grid',
       },
       {
-        title: 'Icons',
+        title: 'Tutores',
         link: '/pages/ui-features/icons',
       },
       {
-        title: 'Typography',
+        title: 'Generos',
         link: '/pages/ui-features/typography',
       },
       {
-        title: 'Animated Searches',
+        title: 'Por calificación',
         link: '/pages/ui-features/search-fields',
       },
     ],
   },
   {
-    title: 'Modal & Overlays',
+    title: 'Mas',
     icon: 'browser-outline',
     children: [
       {
-        title: 'Dialog',
+        title: 'Acerca de ADA',
         link: '/pages/modal-overlays/dialog',
       },
       {
-        title: 'Window',
+        title: 'Quienes somos',
         link: '/pages/modal-overlays/window',
       },
       {
-        title: 'Popover',
+        title: 'Donde estamos',
         link: '/pages/modal-overlays/popover',
       },
       {
-        title: 'Toastr',
+        title: 'Equipo',
         link: '/pages/modal-overlays/toastr',
       },
       {
-        title: 'Tooltip',
+        title: 'Convenios',
         link: '/pages/modal-overlays/tooltip',
       },
     ],
   },
   {
-    title: 'Extra Components',
+    title: 'Tienda online',
     icon: 'message-circle-outline',
     children: [
       {
-        title: 'Calendar',
+        title: 'Catalogo',
         link: '/pages/extra-components/calendar',
       },
       {
-        title: 'Progress Bar',
+        title: 'Ofertas',
         link: '/pages/extra-components/progress-bar',
       },
       {
-        title: 'Spinner',
+        title: 'Mi pedido',
         link: '/pages/extra-components/spinner',
       },
       {
-        title: 'Alert',
+        title: 'Rastreo de pedido',
         link: '/pages/extra-components/alert',
       },
       {
-        title: 'Calendar Kit',
+        title: 'facturación',
         link: '/pages/extra-components/calendar-kit',
       },
       {
@@ -145,45 +154,46 @@ export const MENU_ITEMS: NbMenuItem[] = [
     ],
   },
   {
-    title: 'Maps',
+    title: 'Sedes',
     icon: 'map-outline',
     children: [
       {
-        title: 'Google Maps',
+        title: 'Todas las sedes',
         link: '/pages/maps/gmaps',
       },
       {
-        title: 'Leaflet Maps',
+        title: 'Sedes cercanas',
         link: '/pages/maps/leaflet',
       },
       {
-        title: 'Bubble Maps',
+        title: 'Tutores',
         link: '/pages/maps/bubble',
       },
       {
-        title: 'Search Maps',
+        title: 'Busqueda',
         link: '/pages/maps/searchmap',
       },
     ],
   },
   {
-    title: 'Charts',
+    title: 'Mi progreso',
     icon: 'pie-chart-outline',
     children: [
       {
-        title: 'Echarts',
+        title: 'Mi nivel',
         link: '/pages/charts/echarts',
       },
       {
-        title: 'Charts.js',
+        title: 'Progreso',
         link: '/pages/charts/chartjs',
       },
       {
-        title: 'D3',
+        title: 'Cursos realizados',
         link: '/pages/charts/d3',
       },
     ],
   },
+  /*
   {
     title: 'Editors',
     icon: 'text-outline',
@@ -198,6 +208,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
       },
     ],
   },
+  
   {
     title: 'Tables & Data',
     icon: 'grid-outline',
@@ -212,8 +223,10 @@ export const MENU_ITEMS: NbMenuItem[] = [
       },
     ],
   },
+  */
+
   {
-    title: 'Miscellaneous',
+    title: 'Miscelanea',
     icon: 'shuffle-2-outline',
     children: [
       {
@@ -223,7 +236,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
     ],
   },
   {
-    title: 'Auth',
+    title: 'Autenticación',
     icon: 'lock-outline',
     children: [
       {
