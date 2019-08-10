@@ -1,0 +1,100 @@
+<div class="infinite-cards row">
+
+
+  <!--
+  <div class="col-md-12 col-lg-6 col-xxxl-6">
+    <nb-card class="own-scroll">
+      <nb-card-header>Own Scroll</nb-card-header>
+      <nb-list
+        nbInfiniteList
+        [threshold]="500"
+        (bottomThreshold)="loadNext(firstCard)">
+        <nb-list-item *ngFor="let newsPost of firstCard.news">
+          <ngx-news-post [post]="newsPost"></ngx-news-post>
+        </nb-list-item>
+        <nb-list-item *ngFor="let _ of firstCard.placeholders">
+          <ngx-news-post-placeholder></ngx-news-post-placeholder>
+        </nb-list-item>
+      </nb-list>
+    </nb-card>
+  </div>
+  -->
+
+  <div class="col-md-12 col-lg-12 col-xxxl-12">
+    <nb-card>
+      <nb-card-header>Biblioteca de cursos</nb-card-header>
+      <nb-list
+        nbInfiniteList
+        listenWindowScroll
+        [threshold]="500"
+        (bottomThreshold)="loadNext(secondCard)">
+        <nb-list-item *ngFor="let newsPost of secondCard.news">
+
+            <nb-card-body>
+                <div class="row show-grid">
+                  
+
+                  <div class="col-md-2">
+                    <div>
+                        <a target="_blank" href="http://akveo.com/ngx-admin/pages/dashboard?theme=corporate&utm_source=github&utm_medium=ngx_admin_readme&utm_campaign=main_pic"><img style="width:100%;" src="/assets/images/guitarra.jpg"/></a>
+                        <div style="font-size:10px;">Curso de guitarra flamenca</div>
+                        <div style="font-size:10px;">Por: Francisco Gallardo</div>
+                        <img style="width:100%;" src="/assets/images/stars.png"/>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div>
+                        <a target="_blank" href="http://akveo.com/ngx-admin/pages/dashboard?theme=corporate&utm_source=github&utm_medium=ngx_admin_readme&utm_campaign=main_pic"><img style="width:100%;" src="/assets/images/violonchelo.jpg"/></a>
+                        <div style="font-size:10px;">Curso de violonchelo</div>
+                        <div style="font-size:10px;">Por: Javier Albarés</div>
+                        <img style="width:100%;" src="/assets/images/stars.png"/>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div>
+                        <a target="_blank" href="http://akveo.com/ngx-admin/pages/dashboard?theme=corporate&utm_source=github&utm_medium=ngx_admin_readme&utm_campaign=main_pic"><img style="width:100%;" src="/assets/images/piano.jpg"/></a>
+                        <div style="font-size:10px;">Curso basico de piano</div>
+                        <div style="font-size:10px;">Por: Francisco Gallardo</div>
+                        <img style="width:100%;" src="/assets/images/stars.png"/>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div>
+                        <a target="_blank" href="http://akveo.com/ngx-admin/pages/dashboard?theme=corporate&utm_source=github&utm_medium=ngx_admin_readme&utm_campaign=main_pic"><img style="width:100%;" src="/assets/images/bateria.jpg"/></a>
+                        <div style="font-size:10px;">Curso basico de bateria </div>
+                        <div style="font-size:10px;">Por: Francisco Gallardo</div>
+                        <img style="width:100%;" src="/assets/images/stars.png"/>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div>
+                        <a target="_blank" href="http://akveo.com/ngx-admin/pages/dashboard?theme=corporate&utm_source=github&utm_medium=ngx_admin_readme&utm_campaign=main_pic"><img style="width:100%;" src="/assets/images/consola.jpg"/></a>
+                        <div style="font-size:10px;">Curso avanzado de consola</div>
+                        <div style="font-size:10px;">Por: Francisco Gallardo</div>
+                        <img style="width:100%;" src="/assets/images/stars.png"/>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div>
+                        <a target="_blank" href="http://akveo.com/ngx-admin/pages/dashboard?theme=corporate&utm_source=github&utm_medium=ngx_admin_readme&utm_campaign=main_pic"><img style="width:100%;" src="/assets/images/basico-guitarra.jpg"/></a>
+                        <div style="font-size:10px;">Curso intermadio de guitarra</div>
+                        <div style="font-size:10px;">Por: Francisco Gallardo</div>
+                        <img style="width:100%;" src="/assets/images/stars.png"/>
+                    </div>
+                  </div>
+                </div>
+            </nb-card-body>
+
+          <!--
+          <ngx-news-post [post]="newsPost"></ngx-news-post>
+          -->
+        </nb-list-item>
+        <nb-list-item *ngFor="let _ of secondCard.placeholders">
+          <!--
+          <ngx-news-post-placeholder></ngx-news-post-placeholder>
+          -->
+        </nb-list-item>
+      </nb-list>
+    </nb-card>
+  </div>
+</div>
